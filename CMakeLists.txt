@@ -6,3 +6,4 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_executable(sonar_scanner_example src/main.cpp)
 
+target_include_directories(sonar_scanner_example PRIVATE include)

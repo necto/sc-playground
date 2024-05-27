@@ -1,6 +1,12 @@
 #include <iostream>
+#include "header.h"
 
 using namespace std;
+
+int top(int *ptr) {
+  foo(&ptr);
+  return *ptr;
+}
 
 int main(int argc, char* argv[]) {
   int num = argc - 1;
