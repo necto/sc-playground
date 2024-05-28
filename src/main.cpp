@@ -8,6 +8,15 @@ int top(int *ptr) {
   return *ptr;
 }
 
+void foo2(int **ptr) {
+  *ptr = nullptr;
+}
+
+int top2(int *ptr) {
+  foo2(&ptr);
+  return *ptr;
+}
+
 int main(int argc, char* argv[]) {
   int num = argc - 1;
 
