@@ -8,8 +8,8 @@ int top(int *ptr) {
   return *ptr;
 }
 
-void foo2(int **ptr) {
-  *ptr = nullptr;
+void foo2(int **x) {
+  *x = nullptr;
 }
 
 int top2(int *ptr) {
