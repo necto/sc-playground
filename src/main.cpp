@@ -35,7 +35,7 @@ int main(int argc, char* argv[]) {
   }
   if (argv == nullptr) {
     return **argv; // intentional nullptr dereference
-  }
+  } // Modified
 
   return 0;
 }
